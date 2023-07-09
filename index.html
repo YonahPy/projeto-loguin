@@ -10,31 +10,30 @@
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
-    <main>
-        <section id="login">
-            <div id="imagem">
-                <img src="imagens/pexels-pixabay-277590.jpg" alt="Home">
-            </div>
-            <div id="formulario">
-                <h1>Login</h1>
-                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-                <form action="cadastro.py">
-                
-                    <p><span class="material-symbols-outlined">contact_mail</span>
-                        <input type="email" id="iemail" placeholder="seu e-mail"> 
-                    </p>
-                     
-                   <p>
-                    <span class="material-symbols-outlined">vpn_key</span>
-                    <input type="password" id="isenha" placeholder="sua senha"></p>
-
-                   <input type="submit" id="enviar" >
-                   <input type="reset" id="resete">
-                </form>
-
-            </div>
-        </section>
-    </main>
+        <main>
+            <section id="login">
+                <div id="imagem">
+                    <img src="imagens/pexels-pixabay-277590.jpg" alt="Home">
+                </div>
+                <div id="formulario">
+                    <h1>Login</h1>
+                    <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
+                    <form action="cadastro.py">
+            
+                        <p><span class="material-symbols-outlined">contact_mail</span>
+                            <input type="email" id="iemail" placeholder="seu e-mail" required>
+                        </p>
+            
+                       <p>
+                        <span class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" id="isenha" placeholder="sua senha" required></p>
+                       <input type="submit" id="enviar" >
+                       <input type="reset" id="resete">
+                    </form>
+                </div>
+            </section>
+        </main>
+    
     
 </body>
 </html>
